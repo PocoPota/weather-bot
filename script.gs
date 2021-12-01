@@ -1,5 +1,6 @@
 function myFunction() {
   var WEBHOOK_URL = "YOUR_WEBHOOL_URL";
+  //discordのwebhookのURL
 
   //スクレイピングしたいWebページのURLを変数で定義する
   var url = "https://tenki.jp/forecast/3/16/4410/13101/";
