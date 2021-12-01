@@ -1,0 +1,2 @@
+# weather-bot
+各地方の降水確率をGASを使って定期的に送信するDiscordBot
