@@ -27,12 +27,12 @@ function myFunction() {
 
   var rainyPercent = Parser.data(rainyPercent[0])
     .from('<td>')
-    .to('<span class="unit">')
+    .to('</td>')
     .iterate();
 
-  var rainyPercent1 = rainyPercent[1];
-  var rainyPercent2 = rainyPercent[2];
-  var rainyPercent3 = rainyPercent[3];
+  var rainyPercent1 = rainyPercent[1].slice(0,-27);
+  var rainyPercent2 = rainyPercent[2].slice(0,-27);
+  var rainyPercent3 = rainyPercent[3].slice(0,-27);
 
   var message = today + '\r\n' + '06時～12時 : ' + rainyPercent1 + '%' + '\r\n' + '12時～18時 : ' + rainyPercent2 + '%' + '\r\n' + '18時～24時 : ' + rainyPercent3 + '%';
 
