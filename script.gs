@@ -11,7 +11,7 @@ function myFunction() {
   // 今日の日付と曜日
   var date = Parser.data(html)
     .from('<h3 class="left-style">今日&nbsp;')
-    .to('<span class="weekday">')
+    .to('<span class=')
     .build();
 
   var dow = Parser.data(html)
