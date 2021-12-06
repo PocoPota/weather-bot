@@ -1,4 +1,4 @@
-# weather-bot(現在バグが起きてるので修正中です)
+# weather-bot
 各地方の降水確率をGASを使って定期的に送信するDiscordBot
 
 - 6~12時に送られることを想定
